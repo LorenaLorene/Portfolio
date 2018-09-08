@@ -1,9 +1,6 @@
 from django.contrib import admin
-
-
 from .models import Portfolio
 from .models import Project
-
 
 
 class PortfolioAdmin(admin.ModelAdmin):
@@ -14,11 +11,9 @@ class PortfolioAdmin(admin.ModelAdmin):
 admin.site.register(Portfolio, PortfolioAdmin)
 
 
-
 class ProjectAdmin(admin.ModelAdmin):
     model = Project
-    list_display = ['project_name', 'project_description']
-
+    list_display = ['project_name', 'project_link']
 
 
 admin.site.register(Project, ProjectAdmin)

@@ -25,9 +25,7 @@
             <nav id="nav">
                <ul>
                   <li><a href="#top" id="top-link"><span class="icon fa-home">{{ left_intro_page_name }}</span></a></li>
-				   {% if portfolio_show %}
                   <li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">{{ left_portfolio_page_name }}</span></a></li>
-				   {% endif %}
                   <li><a href="#about" id="about-link"><span class="icon fa-user">{{ left_about_me_page_name }}</span></a></li>
                   <li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
                </ul>
@@ -56,7 +54,6 @@
                </footer>
             </div>
          </section>
-	     {% if portfolio_show %}
          <!-- Portfolio -->
          <section id="portfolio" class="two">
             <div class="container">
@@ -65,12 +62,12 @@
                </header>
                <p>{{ portfolio_description_field }}</p>
                <div class="row">
-                  {%for myFuckingProject in projects%}
+                  {%for myProject in projects%}
                   <div class="col-4 col-12-mobile">
                      <article class="item">
-                        <a href="#" class="image fit"><img src="{{ myFuckingProject.image }}" alt="" /></a>
+                        <a target="_blank" href="{{ myProject.project_link }}" class="image fit"><img src="{{ myProject.image }}" alt="" /></a>
                         <header>
-                           <h3>{{ myFuckingProject.project_name }}</h3>
+                           <h3>{{ myProject.project_name }}</h3>
                         </header>
                      </article>
                   </div>
@@ -78,14 +75,13 @@
                </div>
             </div>
          </section>
-		 {% endif %}
          <!-- About Me -->
          <section id="about" class="three">
             <div class="container">
                <header>
                   <h2>{{ about_me_page_name }}</h2>
                </header>
-               <a href="#" class="image featured"><img src="{{ about_me_image }}" alt="" /></a>
+               <a href="" class="image featured"><img src="{{ about_me_image }}" alt="" style="margin: 0 auto;max-width:300px;"/></a>
                <p>{{ about_me_description_field }}</p>
             </div>
          </section>
@@ -96,12 +92,17 @@
                   <h2>{{ contact_page_name }}</h2>
                </header>
                <p>{{ contact_page_description_field }}</p>
-               <form method="post" action="#">
+               <form method="post" action="/contact_form">
+                   {% csrf_token %}
                   <div class="row">
-                     <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-                     <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+                     <div class="col-6 col-12-mobile">
+                        <input type="text" name="contact_name" placeholder="Name" />
+                     </div>
+                     <div class="col-6 col-12-mobile">
+                        <input type="text" name="contact_email" placeholder="Email" />
+                     </div>
                      <div class="col-12">
-                        <textarea name="message" placeholder="Message"></textarea>
+                        <textarea name="contact_message" placeholder="Message"></textarea>
                      </div>
                      <div class="col-12">
                         <input type="submit" value="Send Message" />

@@ -12,5 +12,5 @@ class Portfolio(models.Model):
 
 class Project(models.Model):
     project_name = models.CharField(max_length=200)
-    project_description = models.CharField(max_length=200)
+    project_link = models.CharField(max_length=200)
     image = models.FileField(upload_to='assets/images')

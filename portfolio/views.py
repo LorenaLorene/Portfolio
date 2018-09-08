@@ -28,7 +28,6 @@ def index(request):
                'portfolio_button': Intro.objects.first().scroll_button,
                'projects': Project.objects.all(),
                'portfolio_page_name': Portfolio.objects.first().name,
-               'portfolio_show': Portfolio.objects.first().show,
                'mini_intro_image': MiniIntro.objects.first().image,
                'about_me_image': About.objects.first().image}
     return HttpResponse(template.render(context, request))
