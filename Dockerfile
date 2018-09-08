@@ -9,9 +9,9 @@ WORKDIR /usr/src/app
 
 # Install dependencies
 RUN pip install --upgrade pip
-RUN pip install pipenv
-COPY ./Pipfile /usr/src/app/Pipfile
-RUN pipenv install --deploy --system --skip-lock --dev
+RUN pip install Django
 
 # Copy project
 COPY . /usr/src/app
+
+CMD cd /usr/src/app && python manage.py runserver
