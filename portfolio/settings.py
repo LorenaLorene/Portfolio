@@ -25,7 +25,7 @@ SECRET_KEY = 'g1gnflxe)=cv^+k+yn^ugy%tynw7)wssji&^6+loq%cba$1ouu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lorenalorene.com']
 
 EMAIL_HOST = 'localhost'
 

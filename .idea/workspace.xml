@@ -5,7 +5,8 @@
     <list default="true" id="8b62ab0a-c8f9-41fd-9f91-3fb026d7fc86" name="Default" comment="" />
 =======
     <list default="true" id="8b62ab0a-c8f9-41fd-9f91-3fb026d7fc86" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
     </list>
 >>>>>>> 942057bdfb0e29f062b867dcfe4c6836897627a0
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -36,15 +37,20 @@
             <state relative-caret-position="240">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
 >>>>>>> b0efcddb41a9b4e982ac76b6566601ac1f341d42
 =======
               <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
 >>>>>>> be506a6028b114d542447751bbd6be86fa0a88df
+=======
+              <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+>>>>>>> 7699a60cf0361e5a07224a6253cb362a639818fb
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="form.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact/form.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,6 +80,13 @@
 =======
               <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
 >>>>>>> 2fce26b569594999e8f3bfe1d7195cfcc2adada1
+=======
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+>>>>>>> 7699a60cf0361e5a07224a6253cb362a639818fb
             </state>
           </provider>
         </entry>
@@ -118,11 +131,11 @@
         <option value="$PROJECT_DIR$/about/models.py" />
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
         <option value="$PROJECT_DIR$/pages/base.html" />
-        <option value="$PROJECT_DIR$/portfolio/settings.py" />
         <option value="$PROJECT_DIR$/contact/form.py" />
         <option value="$PROJECT_DIR$/contact/views.py" />
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/portfolio/settings.py" />
       </list>
     </option>
   </component>
@@ -143,6 +156,11 @@
           <expand>
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -192,19 +210,19 @@
     <frame x="177" y="63" width="1527" height="1070" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.249668" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.46248716" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.46248716" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22801474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -503,15 +521,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="240">
+          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/Pipfile" />
+    <entry file="file://$PROJECT_DIR$/portfolio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
@@ -534,9 +554,12 @@
 =======
           <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
 >>>>>>> 2fce26b569594999e8f3bfe1d7195cfcc2adada1
+=======
+        <state relative-caret-position="237">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+>>>>>>> 7699a60cf0361e5a07224a6253cb362a639818fb
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pipfile" />
   </component>
 </project>
