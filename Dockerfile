@@ -13,8 +13,5 @@ RUN pip install Django
 
 # Copy project
 COPY . /usr/src/app
-<<<<<<< HEAD
-=======
 
 CMD cd /usr/src/app && python manage.py runserver
->>>>>>> b0efcddb41a9b4e982ac76b6566601ac1f341d42
