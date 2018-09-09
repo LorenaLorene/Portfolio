@@ -14,4 +14,4 @@ RUN pip install Django
 # Copy project
 COPY . /usr/src/app
 
-CMD cd /usr/src/app && python manage.py migrate && python manage.py runserver
+CMD cd /usr/src/app && python manage.py migrate && python manage.py runserver 0.0.0.0:8000
